@@ -1,54 +1,53 @@
-# Dual Robot Production Line (Arduino Automation Prototype)
+# Robotic Production Line Simulation
 
-Automation prototype simulating a production workflow using two independent robotic arms and a conveyor system programmed in Arduino C++.
+Embedded automation prototype simulating a robotic production workflow using dual robotic arms, infrared sensors, and conveyor-based object transport programmed in Arduino C++.
 
-Each robotic unit operates autonomously using infrared sensors to detect objects and trigger predefined task sequences, emulating an industrial production line with sensor-based workflow automation.
+The system focuses on sensor-driven task sequencing, synchronized robotic movement, and modular embedded control logic for automated object handling operations.
 
 ---
 
 ## Features
 
-* Two independent robotic arm controllers
-* Infrared sensor-based object detection
-* Conveyor belt motor automation
-* Sequential task execution triggered by sensor input
-* Smooth multi-servo motion control
-* Modular embedded programming structure
+- Dual robotic arm coordination
+- Infrared sensor-based object detection
+- Conveyor belt automation
+- Sensor-driven task sequencing
+- Multi-servo motion control
+- Modular embedded control structure
 
 ---
 
 ## Technologies
 
-* Arduino
-* C++
-* Servo Motor Control
-* Infrared Sensors
-* DC Motor Conveyor System
+- Arduino
+- C++
+- Servo Motor Control
+- Infrared Sensors
+- DC Motor Conveyor System
 
 ---
 
 ## System Overview
 
-Arm 1 detects object presence and executes a predefined manipulation sequence.
-
-Arm 2 controls a conveyor belt, detects incoming objects, and performs automated movement cycles.
-
-The system demonstrates sensor-driven automation logic typical of industrial production workflows.
+- Robotic Arm 1 detects and manipulates objects using infrared sensor input
+- Conveyor system transports detected objects between robotic stations
+- Robotic Arm 2 executes automated handling and positioning sequences
+- Embedded control logic coordinates synchronized task execution across the system
 
 ---
 
-## My Contribution
+## Contributions
 
-* Designed and implemented control logic for both robotic subsystems
-* Programmed sensor-triggered automation sequences
-* Implemented motion routines and safety positioning
-* Structured modular functions for reliable embedded execution
+- Designed and implemented embedded control logic for both robotic subsystems
+- Programmed sensor-triggered automation sequences
+- Developed synchronized motion control routines
+- Structured modular functions for reliable embedded execution
 
 ---
 
 ## Notes
 
-This repository contains only the embedded control software.
+- This repository contains only the embedded control software
+- Mechanical assembly and hardware wiring are not included
 
-Mechanical assembly and hardware wiring are not included.
 
